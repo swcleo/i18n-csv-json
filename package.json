@@ -1,0 +1,33 @@
+{
+  "name": "i18n-csv-to-json",
+  "version": "0.0.1",
+  "description": "語系工具",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --watch 'src/**' --ext 'ts,json,pug' --exec 'ts-node src/server.ts'"
+  },
+  "dependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/express": "^4.17.9",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.6",
+    "papaparse": "^5.2.0",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.8",
+    "@types/express-fileupload": "^1.1.5",
+    "@types/lodash": "^4.14.165",
+    "@types/morgan": "^1.9.2",
+    "@types/node": "^14.14.10",
+    "@types/papaparse": "^5.2.4",
+    "morgan": "^1.10.0",
+    "ts-node": "^9.1.0",
+    "typescript": "^4.1.2"
+  }
+}

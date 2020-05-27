@@ -1,0 +1,17 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Document
+  include bootstrap.pug
+body
+  .container
+    .row
+      .col
+        .form
+          .form-group
+            label(for="csv_file")
+            input#csv_file.form-control-file(type='file' name='csv_file' style="margin: 2px; width:200px")
+            button#btn_submit.btn.btn-outline-primary.btn-sm(type="button") Submit
+            #upload_message(style="color:red")
+script(src="/assets/upload_csv.js")
